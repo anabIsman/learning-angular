@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'learning_Angular';
+  title = 'hsshsh';
+  public variable: string = "jsjsjsjs"  
+
+  show(num: number){
+    if (num == 1){
+      this.variable ="valeur 1"
+    }else{
+      this.variable ="valeur 2"
+      
+    }
+  }
 }
